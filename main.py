@@ -13,7 +13,6 @@ class MyWidget(QMainWindow):
         self.pushButton.show()
         self.pushButton.clicked.connect(self.paintcircle)
         self.should_paint_circle = False
-        print(self.should_paint_circle)
 
     def paintEvent(self, event):
         size = self.size()
